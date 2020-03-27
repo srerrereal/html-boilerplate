@@ -4,6 +4,7 @@
 <!--[if IE 9]><html lang="en" class="ie9"><![endif]-->
 <!--[if gt IE 9]><html lang="en"><![endif]-->
 <!--[if !IE]><html lang="en"><![endif]-->
+<!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, minimum-scale=1">
@@ -13,9 +14,210 @@
     <title>Website Title</title>
     <link rel="icon" type="image/png" sizes="16x16" href="">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+
   </head>
   <body>
-    <h1>Welcome to HTML Boilerplate</h1>
+
+          <div id="fullpage">
+            <div class="section one container-fluid">
+              
+              <div class="container-fluid">
+                <img src="images/logo.png" class="mx-auto d-block img-fluid" alt="...">
+              
+                <div class="d-flex justify-content-center quote">
+                <p>"Iluminando o seu negócio"</p>
+              </div>
+              
+              </div>
+
+            </div>
+            <!--end section 1-->
+            <div class="section two">
+             
+          <div class="container-fluid">
+                
+                    <div class="row">
+
+                      <div class="col-md-6 align-self-center">
+                        
+
+                        <div class="container text-center">
+                            <p class="text text-mobile">
+                              Há mais de 20 anos no mercado
+                              a Vidraçaria Tropical conta com
+                              diversos materiais de alta qualidade
+                              para atender todas as necessidades 
+                              de seu projeto.
+                            </p>
+                      
+                      </div>
+
+                      </div>
+                    <div class="col-md-6 text-center">
+
+                      <!-- Carousel -->
+                      
+          
+                          <div id="carousel" class="carousel slide carousel-fade w-75 my-margin" data-ride="carousel">
+                               
+                                <div class="carousel-inner border rounded-lg border-info shadow">
+                                  <div class="carousel-item active">
+                                    <img class="d-block w-100" src="images/carousel/1.jpg" alt="First slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/2.jpg' alt="Second slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/3.jpg' alt="Third slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/4.jpg' alt="Fourth slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/5.jpg' alt="Fifth slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/6.jpg' alt="sixth slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/7.jpg' alt="seventh slide">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img class="d-block w-100" src='images/carousel/8.jpg' alt="eigth slide">
+                                  </div>
+                                </div>
+                            
+
+                              </div>
+                      
+                            </div>
+
+                        
+                  
+              
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <!-- End Section 2 -->
+
+            <div class="section three">
+                <div class='row' style="margin-top: -50px;">
+                  <div class="col text-center">
+                    <div class="container-fluid">
+                    
+                  <h1 class='text'>CONHEÇA ALGUNS DOS NOSSOS PRODUTOS!</h1>
+              
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row">
+              <div class="col">
+
+                  <div class="slider-container container-fluid">
+                    <ul class="controls" id="customize-controls" aria-label="Carousel Navigation" tabindex="0">
+                        <li class="prev" data-controls="prev" aria-controls="customize" tabindex="-1">
+                          <i class="fas fa-arrow-left"></i>
+                        </li>
+                        <li class="next" data-controls="next" aria-controls="customize" tabindex="-1">
+                          <i class="fas fa-arrow-right"></i>
+                        </li>
+                    </ul>
+                    <div class="mySlider">
+                      <div class='slider-item'><img src="images/carousel/1.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/2.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/3.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/4.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/5.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/6.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/7.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/8.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/9.jpg" alt=""></div>
+                      <div class='slider-item'><img src="images/carousel/10.jpg" alt=""></div>
+                    </div>
+                  </div>
+            
+            </div>
+            
+          </div>
+
+          </div>
+
+
+
+            <div class="section>"></div>
+          </div>
+
+          
+
+
+
     <script src="script/main.js" defer="defer"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fullpage.js@3.0.8/dist/fullpage.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.extensions.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/jquery.fullpage.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/jquery.easings.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.7/vendors/scrolloverflow.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+<!-- NOTE: prior to v2.2.1 tiny-slider.js need to be in <body> -->
+    <script src="script/app.js" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/67afc87bfd.js" crossorigin="anonymous"></script>
+
+  <script type="module">
+
+        var slider = tns({
+        container : '.mySlider',
+        mode: 'carousel',
+        items: 1,
+        slideBy: 'page',
+        autoplay: false,
+        center: false,
+        nav: false,
+        navPosition: 'top',
+        rewind: true,
+        fixedWidth: 600,
+        fixedHeight: 400,
+        mouseDrag: true,
+        controlsContainer: "#customize-controls",
+        speed: 1000,
+        gutter: 20,
+        edgePadding: 20,
+
+        //responsive down below        
+        responsive: {
+      640: {
+        edgePadding: 20,
+        gutter: 20,
+        items: 1
+      },
+      700: {
+        gutter: 30
+      },
+      900: {
+        items: 1
+      }
+    }
+
+        });
+
+
+        
+  </script>
+
   </body>
+
+
 </html>
