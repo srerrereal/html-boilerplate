@@ -8,25 +8,29 @@
 
    .text-mobile{
       margin-top: 50px!important;
+      font-size: 24px!important;
    }
 
-   .slider-container{
-      max-width: 320px!important;
-      max-height: 240px!important;
+   .row-margin{
+      margin-top: -300px!important;
    }
 
-   .text h1{
-      
+   .text-footer{
+  
+      font-family: 'Montserrat';
+      font-size: 14x!important;
+   
+   
    }
+
+   .quote{
+      font-size: 20px!important;
+   }
+   
+
+
 
 }
-
-
-
-
-
-
-
 
 .one{
   background-image: url('../images/1.jpg');
@@ -65,16 +69,54 @@ background-color: ;
 
 }
 
+.white-bg{
+   background-color: rgba(255,255,255, .54)!important;
+   z-index: 1;
+}
+
+.black-bg{
+   background-color: rgba(0,0,0, .3)!important;
+   z-index: 1;
+}
+
+
 .text{
   
+   font-family: 'Montserrat';
+   font-size: 40px;
+
+
+}
+
+.text-footer{
+  
+   font-family: 'Montserrat';
+   font-size: 28px;
+
+
+}
+
+.footer-style{
+   background-color: #fff;
+   position: absolute;
+   margin-top: 72px;
+   left: 0;
+   right: 0;
+   width: 100%;
+}
+
+.row-margin{
+   margin-top: -50px;
+}
+
+
+
+.title{
    color:#FFF;
    font-family: 'Montserrat';
    font-size: 24px;
    font-weight: 100;
-   margin-top: auto;
-   margin-bottom: auto;
-
-
+   margin-top: 50px;
 }
 
 my-margin{
@@ -89,16 +131,7 @@ my-margin{
 
 
 }
-.carousel{
-   margin-left: 64px;
-}
 
-.border-style{
-   border-width: 10px!important;
-}
-#my-carousel img{
-   margin: auto!important;
-}
 
 
 .three{
@@ -106,73 +139,31 @@ background-color: #9face6;
 background-image: linear-gradient(180deg, #9face6 0%, #80D0C7 100%);
 
 }
-.slider-container {    
-   max-width: 600px;
-   max-height: 480px;
+
+.carousel-inner img {
+   margin: auto;
+ }
+
+
+ .four{
+   background-image: url('../images/vidro.png');
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
    
-   background: #e6e6e6;
+ }
+ .display-4{ 
+    color:#000;
+   font-family: 'Montserrat';
+   font-size: 34px;
 
-   overflow: hidden;
-   border-radius: 5px;    
-   position:relative;
-   &:before {
-       content: '.slider-container';
-       position: absolute;
-       left: 0;
-       top: 0;
-       color: blue;
-   }
-}
+ }
 
-img {
-   display: inline-block;
-   vertical-align: center;
-   max-width: 80%;
-}
+    
 
-.mySlider {
-   position: relative;    
-}
-
-.slider-item {
-   padding: 3.5rem 2.5rem;
-   position: relative;
-   &:before {
-       content: '.slider-item';
-       position: absolute;
-       left: 0;
-       top: 0;
-       color: blue;
-   }
+ .five{
+   background-color: #0fd8ff;
+   background-image: linear-gradient(0deg, #0fd8ff 0%, #bacfd1 100%);
    
-   &:hover {
-       cursor: pointer;
-   }
-}
-
-
-.controls {
-   margin: 0;
-   padding: 0;
-   list-style: none;
-   position: absolute;
-   left: 0;    
-   width: 100%;    
-   top: 50%;
-   transform: translatey(-50%);
-   display: flex;
-   align-items: center;    
-   justify-content: space-between;
-   &:focus {
-       outline: none;
-   }
-
-   li:hover {
-       cursor: pointer;        
-   }
-}
-
-   li:hover {
-       cursor: pointer;        
-   }
-}
+ }

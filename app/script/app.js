@@ -5,11 +5,12 @@ $(document).ready(function() {
 		autoScrolling:false,
 		scrollHorizontally: true,
 		css3: true,
-		verticalCentered:true
+		verticalCentered:true,
+
 	});
 
 	//methods
-	$.fn.fullpage.setAllowScrolling(false);
+	$.fn.fullpage.setAllowScrolling(true);
 
 
 	/*$('.owl-carousel').owlCarousel({
